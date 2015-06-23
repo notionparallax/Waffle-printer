@@ -1,0 +1,57 @@
+.card {
+  width: 127.0mm;
+  width: 46%;
+  height: 76.2mm;
+  font-size: 5mm;
+  border: 1px solid black;
+  overflow: hidden;
+  position: relative;
+  padding: 2mm;
+  margin: 2mm;
+  display: inline-block;
+  page-break-inside: avoid;
+}
+
+h1 {
+  font-size: 130%;
+}
+
+span.issue-number {
+  position: absolute;
+  top: 1mm;
+  right: 2mm;
+  font-weight: bold;
+}
+
+span.comments {
+  position: absolute;
+  right: 2mm;
+  bottom: 2mm;
+}
+
+.comments img {
+  height: 1em;
+}
+
+span.person {
+  display: inline-block;
+  width: 1.5cm;
+  position: absolute;
+  bottom: 2mm;
+  left: 2mm;
+  font-size: 60%;
+  text-align: center;
+}
+
+span.person img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+span.label {
+  padding: 2mm;
+  border-radius: 2mm;
+  margin-right: 1mm;
+  color: white;
+  font-size: 90%;
+}

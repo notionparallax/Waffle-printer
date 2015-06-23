@@ -26,3 +26,5 @@ Open `cards.html` and print it.
 This is super clunky. If you have any better ideas then we're all ears!
 
 * We is @dawil and @notionparallax
+
+![the outcome](https://lh3.googleusercontent.com/djRNCdOe1TE1EKYegx71wO3qbaCSDweZJdO6_CAbMLOm=w1459-h993-no)

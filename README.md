@@ -11,13 +11,7 @@ We got around this in the quickest dirtyest way we could. We might make it bette
 
 Clone this repo.
 
-You need the `cards` json from the waffle page. You can get it by inspecting the page, going to Networks and waiting until the page has finished loading. It's just `cards` not `cards.json`. Copy the response body.
-
-![an image of the inspector showing the payload](https://raw.githubusercontent.com/notionparallax/Waffle-printer/master/response.png)
-
-Save it into `cards.json`
-
-From inside this folder run `cat cards.json | ruby waffle-cards-printer.rb > cards.html`
+From inside this folder run `ruby waffle-cards-printer.rb`
 
 Open `cards.html` and print it.
 

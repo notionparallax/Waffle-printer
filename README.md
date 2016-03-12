@@ -11,6 +11,8 @@ We got around this in the quickest dirtyest way we could. We might make it bette
 
 Clone this repo.
 
+Edit `waffle-cards-printer.rb` so that it references your repo. (Lines 4 and 5, very obvious change.) Then save it.
+
 From inside this folder run `ruby waffle-cards-printer.rb`
 
 Open `cards.html` and print it.
